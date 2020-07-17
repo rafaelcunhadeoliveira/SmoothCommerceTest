@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "408cd34e48c04ccba74359ae111282b8"
+build_time: [1595029130, 8303000]
+inputs:
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/View/Cell/FeedTableViewCell.swift": [1595026863, 589827648]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/App/AppDelegate.swift": [1595027273, 511732040]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/Model/Content.swift": [1595023053, 863971178]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/Model/UIImage+Extension.swift": [1595022722, 514798462]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/Model/ViewController+Extension.swift": [1595028598, 776615959]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/App/SceneDelegate.swift": [1595017014, 291333374]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/View/ViewModel/HomeViewModel.swift": [1595029129, 859761092]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/View/WebPageViewController.swift": [1595029129, 852634908]
+  "/Users/rafaelcunhadeoliveira/Documents/SmoothCommerceTest/SmoothCommerceTest/View/HomeViewController.swift": [1595029129, 866357909]

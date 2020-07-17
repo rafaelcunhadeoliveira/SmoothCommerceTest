@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		FC41BB0F24C23EB6004D6FDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB0E24C23EB6004D6FDF /* AppDelegate.swift */; };
 		FC41BB1124C23EB6004D6FDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB1024C23EB6004D6FDF /* SceneDelegate.swift */; };
-		FC41BB1324C23EB6004D6FDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB1224C23EB6004D6FDF /* ViewController.swift */; };
 		FC41BB1624C23EB6004D6FDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC41BB1424C23EB6004D6FDF /* Main.storyboard */; };
 		FC41BB1824C23EB8004D6FDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC41BB1724C23EB8004D6FDF /* Assets.xcassets */; };
 		FC41BB1B24C23EB8004D6FDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC41BB1924C23EB8004D6FDF /* LaunchScreen.storyboard */; };
 		FC41BB2624C23EB8004D6FDF /* SmoothCommerceTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB2524C23EB8004D6FDF /* SmoothCommerceTestTests.swift */; };
 		FC41BB3124C23EB8004D6FDF /* SmoothCommerceTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB3024C23EB8004D6FDF /* SmoothCommerceTestUITests.swift */; };
+		FC41BB4224C240FB004D6FDF /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC41BB4124C240FB004D6FDF /* Media.xcassets */; };
+		FC41BB4624C242CA004D6FDF /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB4424C242CA004D6FDF /* FeedTableViewCell.swift */; };
+		FC41BB4724C242CA004D6FDF /* FeedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC41BB4524C242CA004D6FDF /* FeedTableViewCell.xib */; };
+		FC41BB4924C24D1D004D6FDF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB4824C24D1D004D6FDF /* HomeViewController.swift */; };
+		FC41BB4C24C24F86004D6FDF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB4B24C24F86004D6FDF /* HomeViewModel.swift */; };
+		FC41BB4E24C24FB6004D6FDF /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB4D24C24FB6004D6FDF /* Content.swift */; };
+		FC41BB5024C2537B004D6FDF /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB4F24C2537B004D6FDF /* ViewController+Extension.swift */; };
+		FC41BB5524C254B2004D6FDF /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB5424C254B2004D6FDF /* UIImage+Extension.swift */; };
+		FC41BB5B24C261D3004D6FDF /* WebPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC41BB5A24C261D3004D6FDF /* WebPageViewController.swift */; };
+		FC41BB5E24C268AF004D6FDF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC41BB5D24C268AF004D6FDF /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +47,6 @@
 		FC41BB0B24C23EB6004D6FDF /* SmoothCommerceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothCommerceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC41BB0E24C23EB6004D6FDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC41BB1024C23EB6004D6FDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC41BB1224C23EB6004D6FDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC41BB1524C23EB6004D6FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC41BB1724C23EB8004D6FDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC41BB1A24C23EB8004D6FDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		FC41BB2C24C23EB8004D6FDF /* SmoothCommerceTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmoothCommerceTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC41BB3024C23EB8004D6FDF /* SmoothCommerceTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothCommerceTestUITests.swift; sourceTree = "<group>"; };
 		FC41BB3224C23EB8004D6FDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC41BB4124C240FB004D6FDF /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		FC41BB4424C242CA004D6FDF /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		FC41BB4524C242CA004D6FDF /* FeedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedTableViewCell.xib; sourceTree = "<group>"; };
+		FC41BB4824C24D1D004D6FDF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC41BB4B24C24F86004D6FDF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FC41BB4D24C24FB6004D6FDF /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		FC41BB4F24C2537B004D6FDF /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		FC41BB5424C254B2004D6FDF /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		FC41BB5A24C261D3004D6FDF /* WebPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPageViewController.swift; sourceTree = "<group>"; };
+		FC41BB5D24C268AF004D6FDF /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC41BB5E24C268AF004D6FDF /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,7 @@
 				FC41BB2424C23EB8004D6FDF /* SmoothCommerceTestTests */,
 				FC41BB2F24C23EB8004D6FDF /* SmoothCommerceTestUITests */,
 				FC41BB0C24C23EB6004D6FDF /* Products */,
+				FC41BB5C24C268AF004D6FDF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +119,9 @@
 		FC41BB0D24C23EB6004D6FDF /* SmoothCommerceTest */ = {
 			isa = PBXGroup;
 			children = (
-				FC41BB0E24C23EB6004D6FDF /* AppDelegate.swift */,
-				FC41BB1024C23EB6004D6FDF /* SceneDelegate.swift */,
-				FC41BB1224C23EB6004D6FDF /* ViewController.swift */,
-				FC41BB1424C23EB6004D6FDF /* Main.storyboard */,
-				FC41BB1724C23EB8004D6FDF /* Assets.xcassets */,
-				FC41BB1924C23EB8004D6FDF /* LaunchScreen.storyboard */,
-				FC41BB1C24C23EB8004D6FDF /* Info.plist */,
+				FC41BB4024C23F20004D6FDF /* Model */,
+				FC41BB3F24C23F16004D6FDF /* View */,
+				FC41BB3E24C23F04004D6FDF /* App */,
 			);
 			path = SmoothCommerceTest;
 			sourceTree = "<group>";
@@ -126,6 +142,66 @@
 				FC41BB3224C23EB8004D6FDF /* Info.plist */,
 			);
 			path = SmoothCommerceTestUITests;
+			sourceTree = "<group>";
+		};
+		FC41BB3E24C23F04004D6FDF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FC41BB1024C23EB6004D6FDF /* SceneDelegate.swift */,
+				FC41BB0E24C23EB6004D6FDF /* AppDelegate.swift */,
+				FC41BB1C24C23EB8004D6FDF /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FC41BB3F24C23F16004D6FDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC41BB4A24C24F6E004D6FDF /* ViewModel */,
+				FC41BB4324C242B4004D6FDF /* Cell */,
+				FC41BB1924C23EB8004D6FDF /* LaunchScreen.storyboard */,
+				FC41BB1424C23EB6004D6FDF /* Main.storyboard */,
+				FC41BB4824C24D1D004D6FDF /* HomeViewController.swift */,
+				FC41BB5A24C261D3004D6FDF /* WebPageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC41BB4024C23F20004D6FDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC41BB1724C23EB8004D6FDF /* Assets.xcassets */,
+				FC41BB4124C240FB004D6FDF /* Media.xcassets */,
+				FC41BB4D24C24FB6004D6FDF /* Content.swift */,
+				FC41BB4F24C2537B004D6FDF /* ViewController+Extension.swift */,
+				FC41BB5424C254B2004D6FDF /* UIImage+Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC41BB4324C242B4004D6FDF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FC41BB4424C242CA004D6FDF /* FeedTableViewCell.swift */,
+				FC41BB4524C242CA004D6FDF /* FeedTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FC41BB4A24C24F6E004D6FDF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC41BB4B24C24F86004D6FDF /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC41BB5C24C268AF004D6FDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC41BB5D24C268AF004D6FDF /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC41BB1B24C23EB8004D6FDF /* LaunchScreen.storyboard in Resources */,
+				FC41BB4724C242CA004D6FDF /* FeedTableViewCell.xib in Resources */,
 				FC41BB1824C23EB8004D6FDF /* Assets.xcassets in Resources */,
+				FC41BB4224C240FB004D6FDF /* Media.xcassets in Resources */,
 				FC41BB1624C23EB6004D6FDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC41BB1324C23EB6004D6FDF /* ViewController.swift in Sources */,
+				FC41BB4624C242CA004D6FDF /* FeedTableViewCell.swift in Sources */,
 				FC41BB0F24C23EB6004D6FDF /* AppDelegate.swift in Sources */,
+				FC41BB4E24C24FB6004D6FDF /* Content.swift in Sources */,
+				FC41BB5524C254B2004D6FDF /* UIImage+Extension.swift in Sources */,
+				FC41BB5024C2537B004D6FDF /* ViewController+Extension.swift in Sources */,
 				FC41BB1124C23EB6004D6FDF /* SceneDelegate.swift in Sources */,
+				FC41BB4C24C24F86004D6FDF /* HomeViewModel.swift in Sources */,
+				FC41BB5B24C261D3004D6FDF /* WebPageViewController.swift in Sources */,
+				FC41BB4924C24D1D004D6FDF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YH7K6PQM2C;
-				INFOPLIST_FILE = SmoothCommerceTest/Info.plist;
+				INFOPLIST_FILE = SmoothCommerceTest/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +538,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YH7K6PQM2C;
-				INFOPLIST_FILE = SmoothCommerceTest/Info.plist;
+				INFOPLIST_FILE = SmoothCommerceTest/App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
