@@ -15,7 +15,7 @@ enum ContentType: String {
     case video = "video"
 }
 
-struct Cell: Decodable {
+struct Cell: Decodable { // Decodable Objects to help deserialize service response
     var data: [Item]
 }
 
